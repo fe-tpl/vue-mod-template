@@ -13,7 +13,7 @@ class VueModTpl {
     return app;
   }
 }
-let moduleEles = document.querySelectorAll(".freedom-vue-component-wrapper");
+let moduleEles = document.querySelectorAll(".freedom-module-wrapper{module-name}");
 for (var i = 0; i < moduleEles.length; i++) {
   new VueModTpl(moduleEles[i]);
 }

@@ -1,4 +1,5 @@
 import "./index.less";
+import Vue from "vue";
 
 export default (mockData) => {
   let app = new Vue({

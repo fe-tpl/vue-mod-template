@@ -30,6 +30,11 @@ export default (mockData) => {
   let app = new Vue({
     template: require("./index.html"),
     components: {},
+    created() {
+      // if (process.env.VUE_ENV == "client") {
+      //   window.location.href = "//www.aliyun.com";
+      // }
+    },
     data() {
       return {
         ...mockData
